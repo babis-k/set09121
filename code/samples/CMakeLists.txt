@@ -1,0 +1,3 @@
+add_subdirectory(lab_7_platformer)
+add_subdirectory(lab_9_deployment)
+add_subdirectory(practical_1)

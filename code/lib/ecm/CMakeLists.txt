@@ -1,0 +1,5 @@
+project(ecm)
+file(GLOB_RECURSE SOURCE_FILES *.cpp *.h)
+add_library(${PROJECT_NAME} STATIC ${SOURCE_FILES})
+target_include_directories(${PROJECT_NAME} PUBLIC .)
+target_link_libraries(${PROJECT_NAME} PUBLIC maths)

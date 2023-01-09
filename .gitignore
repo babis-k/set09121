@@ -1,2 +1,6 @@
+# Ignore Jekyll-generated data
 _site/*
 Gemfile.lock
+
+# Ignore CMake and code build generated data
+code/build

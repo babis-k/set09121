@@ -24,7 +24,7 @@ If you have not already created a GitHub account, create one and sign in.
 
 1. Check - Initialize with a readme
 
-1. Choose an open source license, so people cant legally steal your work
+1. Choose an open source license, so people can't legally steal your work
 without crediting you. The inbuilt guide from GitHub covers this neatly,
 when in doubt: choose MIT license.
 
@@ -35,8 +35,8 @@ button and copy the link within the box
 
 ![Clone from Github](assets/images/github_clone.png)
 
-### 2022 Special: Getting GitHub Desktop
-So, usually we'd have everything you needed installed on the D2 machines. This year we still do, but you might not be there as much. As such, you'll need to install GitHub Desktop onto your own machine. Here it is: [https://desktop.github.com/](https://desktop.github.com/). You can use Git directly if you like, but if you're new, I'd get the GUI. Once you've got that installed, make sure you also install Git, as described below.
+### Post-pandemic special: Getting GitHub Desktop
+So, usually we'd have everything you needed installed on the D2 machines. We still do, but you might not be there as much, or you might prefer your laptop. As such, you'll need to install GitHub Desktop onto your own machine. Here it is: [https://desktop.github.com/](https://desktop.github.com/). You can use Git directly if you like, but if you're new, I'd get the GUI. Once you've got that installed, make sure you also install Git, as described below.
 
 ### Clone it down
 

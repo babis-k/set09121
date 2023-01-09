@@ -1,0 +1,6 @@
+project(engine)
+file(GLOB_RECURSE SOURCE_FILES *.cpp *.h)
+add_library(${PROJECT_NAME} STATIC ${SOURCE_FILES})
+target_include_directories(${PROJECT_NAME} PUBLIC . ${SFML_INCLUDE_DIR} ${BOX2D_INCLUDE_DIR})
+target_link_libraries(${PROJECT_NAME} PUBLIC maths ecm tile_level_loader ${BOX2D_LIBRARIES} ${SFML_LIBRARIES})
+# target_link_libraries(${PROJECT_NAME} maths ecm tile_level_loader ${BOX2D_LIBRARIES} debug ${SFML_LIBRARIES_DEBUG} optimized ${SFML_LIBRARIES_OPTIMIZED})
