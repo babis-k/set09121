@@ -31,7 +31,7 @@ What we have done here is store a 2D vector of the **velocity** (speed & directi
 This is just simple physics, but remember that we've used Delta Time to ensure the ball moves at a constant rate.
 
 I've introduced another piece of logic, the 'server' boolean. This decided which direction the ball starts moving at the start of the game. 
-The weird piece of code that you added to the load function is an 'inline if statement'. It's just the same as a if block, but in one line. If the statement before the ? is true, then ballVelocity.x is set to 100.0f, if server is false, ballVelocity.x = -100.0f. Note that ballVelocity.y is always the same at 60.0f!
+The weird piece of code that you added to the load function uses the 'ternary operator' (?:) and it's like an inline if statement. It's just the same as a if block, but in one line. If the statement before the ? is true, then ballVelocity.x is set to 100.0f, if server is false, ballVelocity.x = -100.0f. Note that ballVelocity.y is always the same at 60.0f!
 
 
 ## Ball collision
@@ -88,9 +88,9 @@ else if (
 	//ball is inline or behind paddle
 	bx < paddleSize.x && 
 	//AND ball is below top edge of paddle
-	by > paddles[0].getPosition().y - (paddleSize.y * 0.5) &&
+	by > paddles[0].getPosition().y - (paddleSize.y * 0.5f) &&
 	//AND ball is above bottom edge of paddle
-	by < paddles[0].getPosition().y + (paddleSize.y * 0.5)
+	by < paddles[0].getPosition().y + (paddleSize.y * 0.5f)
 	) {
     // bounce off left paddle
   } else if (...) {

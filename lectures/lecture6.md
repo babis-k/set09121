@@ -453,7 +453,7 @@ RAII : Mario should clean up after himself!
 
     class Dog : public Animal{};
 
-    void func(Animal a) { 
+    void func(Animal& a) { 
         a.make_sound(); 
     }
 
@@ -912,7 +912,7 @@ int A::do_more() {
 
 - A number of additional concepts are worth looking into.
  - **PIMPL**: private implementation or pointer-to-implementation. Useful to hide pointer requirements and allow cheap moving of objects.
- - **templates**: are very powerful in C++. Metatemplate programming is a neat thing if you can wrap your head around it.
+ - **templates**: are very powerful in C++. Template metaprogramming is a neat thing if you can wrap your head around it.
  - **virtual destructors**: if you have a base-class, the destructor must be virtual. Otherwise clean-up may not be correct.
 
 ---
@@ -933,18 +933,18 @@ int A::do_more() {
 
 ---
 
-# Sam's Golden Rules / top tips
+# Golden Rules / top tips
 
 1. Keep stuff out of header files. Only the bare minimum!
- - OMG *Forward declare pointers* in header files (Google it).
+ - *Forward declare pointers* in header files (Google it).
  - You don't need to include dog.h if you only ever have a dog pointer.
 
-1. When in doubt, use Unique_ptr. Move to shared_ptr if you need it
- - Don't even call New(). Or Delete(). Ever. Just don't.
+1. When in doubt, use unique_ptr. Move to shared_ptr if you need it
+ - Don't even call new. Or delete. Ever. Just don't.
 
-1. Use Const everywhere.
+1. Use const as much as you can.
 
-5. Put breakpoints in all your deconstructors when debugging scope issues. 
+1. Put breakpoints in all your destructors when debugging scope issues. 
  - When they call will surprise you!
 
 

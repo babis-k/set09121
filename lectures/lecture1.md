@@ -18,7 +18,7 @@ presentationTheme: '/assets/revealJS/css/theme/napier.css'
 <br><br>
 Babis Koniaris
 <br>
-(Original material by Kevin Chalmers/Sam Serrels/Babis Koniaris)
+(Original material by Kevin Chalmers/Sam Serrels/Thomas Methven)
 
 School of Computing. Edinburgh Napier University
 

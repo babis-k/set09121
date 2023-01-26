@@ -6,7 +6,7 @@ permalink:  lecture4.html
 summary: lecture4
 layout: presentation
 presentationTheme: '/assets/revealJS/css/theme/napier.css' 
----
+--- l;
 <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
 <textarea data-template>
 
@@ -145,7 +145,7 @@ School of Computing. Edinburgh Napier University
 
 # Spelunky
 
-- Spelunky is one of the best examples of inheritance in games
+- Spelunky is one of the best (?) examples of inheritance in games
 
 - Olmec, a boss, inherits from a push block
 
