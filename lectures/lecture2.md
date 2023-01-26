@@ -71,7 +71,6 @@ you are familiar and confident about the basics. <!-- .element: class="fragment"
 - GitHub - The de facto for open-source code.
 - Bitbucket - By Atlassian - more for private projects
 - Gitlab - when you need multiple repos and project management
-- [https://gitgud.napier.ac.uk](https://gitgud.napier.ac.uk) - unlimited private repos, napier hosted.
 
 
 ---
@@ -272,7 +271,6 @@ If you can't; then it shows that you don't understand your own work. <!-- .eleme
 Advanced trick: You can do "Squash and Rebase" technique to make this
 look neater.
 
-
 ---
 
 # Merging 2 
@@ -315,20 +313,6 @@ There is one rule to rule them all: <!-- .element: class="fragment" -->
 GitHub, like many companies, is in the process of changing the name of the 'Master' branch. It seems to be in progress at time of writing, so you might see it called 'Main', 'Default', or 'Origin' in some tools!
 
 (Don't worry, just remember to **Never break the main branch**)
-
----
-
-# Branches
-
-![image](assets/images/gitflowworkflow.png) <!-- .element height="100%" width="100%" -->
-
-
----
-
-# Branches
-
-![image](assets/images/gitexample3.png) <!-- .element height="100%" width="100%" -->
-
 
 ---
 
