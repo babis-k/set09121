@@ -6,7 +6,7 @@ permalink:  lecture4.html
 summary: lecture4
 layout: presentation
 presentationTheme: '/assets/revealJS/css/theme/napier.css' 
---- l;
+--- 
 <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
 <textarea data-template>
 
