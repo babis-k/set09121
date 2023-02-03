@@ -7,7 +7,7 @@ summary: Let's start at the beginning
 sidebar: home_sidebar
 ---
 
-For your first practical, we will be going back to the most basic of basic. Creating the classic arcade game PONG. For this we will be chucking some of the software practices you may be used to out the window. We will be using one single main.cpp file, no classes, no OO at all. You should be able to have a working pong game, with AI, in under 200 lines of code. 
+For your first practical, we will be going back to the most basic of basics. Creating the classic arcade game PONG. For this we will be chucking some of the software practices you may be used to out the window. We will be using one single main.cpp file, no classes, no OO at all. You should be able to have a working pong game, with AI, in under 200 lines of code. 
 
 <video class="middle" width="400" height="300" loop autoplay>
   <source src="assets/videos/pong.mp4" type="video/mp4">
@@ -36,7 +36,7 @@ void Render() {
 int main () {
 	//initialise and load
 	while(!shouldQuit){
-		//Caluclate dt
+		//Calculate dt
 		Update(dt);
 		Render();
 		//Wait for Vsync
@@ -63,7 +63,7 @@ In our case, we are doing it more simply. Once the update function has been comp
 #### Delta Time  - (Δt or dt)
 
 {:tip="deltatime" class="tip"}
-Delta Time Covered is in more detail here - you will want to read this!
+Delta Time is covered in more detail here - you will want to read this!
 
 Before calling Update, the Delta Time (dt) is calculated. This is the amount of time that has passed between now and the previous frame or tick. With a game updating at a steady 60fps, dt should be approximately 16ms (1/60).
 To actually calculate dt, you can use inbuilt C++ timers, or just use the handy SFML Clock.

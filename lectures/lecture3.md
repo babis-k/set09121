@@ -122,7 +122,7 @@ Game Design Workshop. 3rd Edition. Fullerton (2014).
 
 - You need to define what the player's task is in the game.
 - Traditional board and card games had everyone with the same role, more or less.
-    - Some players had multiple roles -- Dungeons and Dragons, Monopoly, etc. <!-- .element: class="fragment" -->
+    - Some players had multiple roles -- Dungeons and Dragons, etc. <!-- .element: class="fragment" -->
 - Video games follow this tradition. <!-- .element: class="fragment" -->
     - Again, there are exceptions such as Team Fortress 2, Neverwinter Nights, etc. <!-- .element: class="fragment" -->
 - Roles can also be defined by how the players react to the rules and procedures of the game. <!-- .element: class="fragment" -->
@@ -332,7 +332,7 @@ A **resource** is an asset that provides the player with an advantage, allows th
 - Resources are ubiquitous in games:
  - Monopoly has money and property.
  - Command & Conquer has Tiberium.
- - Halo has health, ammunition, and sheilds.
+ - Halo has health, ammunition, and shields.
 
  ![BorderlandsLootBox](http://lootmaster.weebly.com/uploads/3/8/1/3/38139257/7052736.jpg) <!-- .element height="250px" -->
  ![UThealthPack](assets/images/uthealthpack.jpg) <!-- .element height="250px" -->

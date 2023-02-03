@@ -193,14 +193,14 @@ Commit selectively - don't just cram in files.
 
 <br>
 
-### Git is not for Binary files <!-- .element: class="fragment" -->
+### Git is not for Binary Files <!-- .element: class="fragment" -->
 
 ## Keep The Repo Clean <!-- .element: class="fragment" -->
 
 
 ---
 
-# What goes into a code repository
+# What typically goes into a code repository
 
 - Source code files. (.cpp, .h, .java)
 - README.md
@@ -212,7 +212,7 @@ Commit selectively - don't just cram in files.
 
 ---
 
-# What does not go into a code repository
+# What does typically not go into a code repository
 
 - Binary files (.wav, .mp3, .jpg, .pdf)  [ok for small things] <!-- .element: class="fragment" -->
 - Compiled Code (.exe, .dll, .lib, .so, .obj) <!-- .element: class="fragment" -->
@@ -429,8 +429,8 @@ Where we get into trouble is when hardware and system calls.
 - Input
 - Graphics
 - Sound
-- Threading
-- Time
+- Threading (native since C++11)
+- Time (native since C++11)
 - Maths
 
 <!-- .element: class="fragment" -->

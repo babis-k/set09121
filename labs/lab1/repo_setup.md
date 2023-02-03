@@ -38,12 +38,12 @@ button and copy the link within the box
 ### Post-pandemic special: Getting GitHub Desktop
 So, usually we'd have everything you needed installed on the D2 machines. We still do, but you might not be there as much, or you might prefer your laptop. As such, you'll need to install GitHub Desktop onto your own machine. Here it is: [https://desktop.github.com/](https://desktop.github.com/). You can use Git directly if you like, but if you're new, I'd get the GUI. Once you've got that installed, make sure you also install Git, as described below.
 
-### Clone it down
+### Clone it
 
 If you haven't installed Git on your pc yet, [go here](https://git-scm.com/downloads)
 
 Open a cmd (or git-bash) window somewhere (desktop is best). Now clone
-your repo down
+your repo
 
 ```bash
 git clone git@github.com:you/yourRepo.git
