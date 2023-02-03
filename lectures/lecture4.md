@@ -351,13 +351,6 @@ Keep it abstract, but consider how you would program these.
 
 ---
 
-# What systems does an Economy need?
-
- ![image](assets/images/economics.png)
-
-
----
-
 # Emergent Systems
 
 - Emergent systems exhibit behavior not explicitly programmed. The behavior emerges from the rules placed on the objects.
@@ -388,14 +381,6 @@ Keep it abstract, but consider how you would program these.
 # Software System
 
  ![image](assets/images/uml.png) 
-
-
----
-
-# Back to Donkey Kong 
-
-<iframe width="760" height="515" src="https://www.youtube.com/embed/Pp2aMs38ERY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 ---
 
