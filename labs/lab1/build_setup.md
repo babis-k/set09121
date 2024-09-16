@@ -17,7 +17,7 @@ With a simple text editor, create a **main.cpp** file in the **practical_1** fol
 #include <SFML/Graphics.hpp>
 
 int main(){
-  sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+  sf::RenderWindow window(sf::VideoMode({200, 200}), "SFML works!");
   sf::CircleShape shape(100.f);
   shape.setFillColor(sf::Color::Green);
 
@@ -90,13 +90,13 @@ target_link_libraries(PRACTICAL_1 sfml-graphics)
 While that may look odd, you can generally guess at what every line does. The good news is we'll provide all the CMake code you will need.
 **Having said that, it is useful to understand it, so you can debug it!**
 
-### Post-pandemic Special: Downloading CMake
-Again, we have CMake installed in D2 (via AppsAnywhere), but you'll need to get it for your own machine. You can go get the latest version at [https://cmake.org/](https://cmake.org/). That is currently 3.22.1. Images come from a slightly earlier version, but it should all be similar.
+### Installing CMake on your machine
+We have CMake in D2 (locally, or via AppsAnywhere), but you'll need to get it for your own machine. You can go get the latest version at [https://cmake.org/](https://cmake.org/). 
 
 **Make sure you have it installed, before continuing!**
 
-### Post-pandemic Special pt.2: Downloading Visual Studio Community 2019 or 2022
-For this year, we're going to use VS Community 2019. You can use Code if you like, but I won't be able to help you as much. First things first then, go get it here: [https://visualstudio.microsoft.com/vs/community/](https://visualstudio.microsoft.com/vs/community/)
+### Installing Visual Studio Community 2019 or 2022 on your machine
+We have Visual Studio Community in the labs, so if you want to work on your own machine, please download and install it. You can use Code if you like, but I won't be able to help you as much. First things first then, go get it here: [https://visualstudio.microsoft.com/vs/community/](https://visualstudio.microsoft.com/vs/community/)
 
 Next, make sure you've **ACTUALLY** installed the C++ compiler modules. The biggest issue people have with CMake is it failing because it can't find Visual Studio. This is often because you have VS installed via Unity, and it only has C# support. Open the Visual Studio Installer, click **More** against the installation, and pick **Modify** from the list. You should see a bunch of things you can install. From the **Workloads** tick the **Desktop development with C++** option. This should, by default, give you everything you need. Finally, you just need to pick **Modify** from that menu, to get it installing!
 

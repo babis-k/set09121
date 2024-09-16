@@ -90,6 +90,9 @@ We will be doing this via Git Submodules, which makes it look  like the SFML cod
 git submodule add https://github.com/SFML/SFML.git lib/sfml
 git submodule init
 git submodule update
+cd lib\sfml
+git checkout 2.6.1
+cd ..\..
 ```
 **Note, you need to be in the root directory of your repository for this to work!**
 
